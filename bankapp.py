@@ -1,5 +1,5 @@
 class Bank_Account:
-    def __init__(self):
+    def fun(self):
         self.balance = 0
         print("Hello!!! Welcome to our INDIAN BANK")
     def mail(self):
@@ -51,6 +51,7 @@ class Bank_Account:
     def display(self):
         print("\n Net Available Balance=", self.balance)
 s = Bank_Account()
+s.fun()
 s.userlogin()
 s.mail()
 s.pas()
