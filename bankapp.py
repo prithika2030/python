@@ -22,13 +22,14 @@ class Bank_Account:
     def mobile(self):
         while True:
         mob=input("Enter the mobile number")
-        if(len(mob)>=10):
+        if(len(mob)>=10 and mob[0]=="9"):
             print(mob)
             break
         else:
             print("Please enter the correct mobile number")
             continue
     def accno(self):
+        while True:
         num=input("Enter the account number:")
         if(len(num)>=12):
             print(num)
