@@ -1,0 +1,45 @@
+def student(name,reg,degree,year,rollno,Date,Month,Year):
+   print(name)
+   print(reg)
+   print(Date,month,Year)
+   '''1.B.E
+      2.B.TECH
+      3.MCA
+      4.B.COM
+      5.B.SC'''
+   if(degree=="1"):
+       print("B.E")
+   elif(degree=="2"):
+       print("B.TECH")
+   elif(degree=="3"):
+       print("MCA")
+   elif(degree=="4"):
+       print("B.COM")
+   else:
+       print("B.SC")
+   if(year=="1"):
+       print("I")
+   elif(year=="2"):
+       print("II")
+   elif(year=="3"):
+       print("III")
+   else:
+       print("IV")
+   while True:
+    a=len(rollno)
+    if(a>10):
+       print(rollno)
+       break
+    else:
+       print("Please enter the correct mobile number")
+name=input("Enter the name:")
+reg=input("Enter the regno:")
+degree=input("Enter the choice:")
+year=input("Enter the choice")
+rollno=input("Enter the rollnumber")
+Date=input("Enter the Date:")
+month=input("Enter the month")
+Year=input("Enter the year")
+student(name,reg,degree,year,rollno,Date,month,Year)
+
+
