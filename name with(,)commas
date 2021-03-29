@@ -1,0 +1,3 @@
+a=input("Enter the string:")
+b=",".join(a)
+print(b)
